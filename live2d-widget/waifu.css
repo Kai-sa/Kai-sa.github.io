@@ -47,15 +47,15 @@
 /*对话框*/
 #waifu-tips {
 	animation: shake 50s ease-in-out 5s infinite;
-	background-color: rgba(236, 217, 188, .5);
-	border: 1px solid rgba(224, 186, 140, .62);
+	background-color: transparent;
+	border: 3px solid rgba(255,182,193);
 	border-radius: 12px;
 	box-shadow: 0 3px 15px 2px rgba(191, 158, 118, .2);
 	font-size: 14px;
 	line-height: 24px;
 	margin: -30px 20px;
 	min-height: 70px;
-	opacity: 0;
+	opacity: 0.5;
 	overflow: hidden;
 	padding: 5px 10px;
 	position: absolute;
@@ -72,7 +72,7 @@
 }
 
 #waifu-tips span {
-	color: #0099cc;
+	color: transparent;
 }
 
 /*模型大小与位置*/
