@@ -14,12 +14,12 @@
   
 
   <link rel="shortcut icon" href="/asset/img/to.JPG" type="image/png" />
-  <meta name="description" content="console.error(&quot;Error: [hexo-tag-aplayer] Specified asset file not found (music&#x2F;山海.jpg)&quot;); 			  崇尚自由、热爱技术。人文主义、创新主义、科技主义、浪漫主义。 我爱好：睡觉、编程、音乐、发呆。人格类型：ISFJ-A 和 ISFJ-T   关于博客 随便写写，想写什么就写什么。  音乐htt">
+  <meta name="description" content="var ap &#x3D; new APlayer({             element: document.getElementById(&quot;mmedia-zFSqldwC&quot;),             narrow: false,             autoplay: fals">
 <meta property="og:type" content="website">
 <meta property="og:title" content="关于">
 <meta property="og:url" content="https://kai-sa.github.io/about.html">
 <meta property="og:site_name" content="楼阁上的猫">
-<meta property="og:description" content="console.error(&quot;Error: [hexo-tag-aplayer] Specified asset file not found (music&#x2F;山海.jpg)&quot;); 			  崇尚自由、热爱技术。人文主义、创新主义、科技主义、浪漫主义。 我爱好：睡觉、编程、音乐、发呆。人格类型：ISFJ-A 和 ISFJ-T   关于博客 随便写写，想写什么就写什么。  音乐htt">
+<meta property="og:description" content="var ap &#x3D; new APlayer({             element: document.getElementById(&quot;mmedia-zFSqldwC&quot;),             narrow: false,             autoplay: fals">
 <meta property="og:locale" content="zh_CN">
 <meta property="og:image" content="https://i.loli.net/2020/06/13/IaMAhtQSH4nPjEb.png">
 <meta property="og:image" content="https://i.loli.net/2020/06/13/Oi7T2gQNVZFRkPB.png">
@@ -30,7 +30,7 @@
 <meta name="twitter:image" content="https://i.loli.net/2020/06/13/IaMAhtQSH4nPjEb.png">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/combine/gh/nexmoe/nexmoe.github.io@latest/css/style.css,npm/highlight.js@9.15.8/styles/atom-one-dark.css,gh/nexmoe/nexmoe.github.io@latest/lib/mdui_043tiny/css/mdui.css,gh/nexmoe/nexmoe.github.io@latest/lib/iconfont/iconfont.css" crossorigin>
   
-  <!--<link rel="stylesheet" href="/css/style.css?v=1593762477581">-->
+  <!--<link rel="stylesheet" href="/css/style.css?v=1593762676128">-->
 <meta name="generator" content="Hexo 4.2.1"></head>
 
 <body class="mdui-drawer-body-left">
@@ -153,7 +153,7 @@
       <ul>
         
           <li>
-            <a href="/jianlai/">剑来</a>
+            <a href="/%E5%89%91%E6%9D%A5/">剑来</a>
           </li>
         
           <li>
@@ -161,7 +161,7 @@
           </li>
         
           <li>
-            <a href="/Java/">Java.标识符</a>
+            <a href="/java%E6%A0%87%E8%AF%86%E7%AC%A6%E5%91%BD%E5%90%8D%E8%A7%84%E5%88%99%E3%80%81%E8%A7%84%E8%8C%83/">Java.标识符</a>
           </li>
         
       </ul>
@@ -199,9 +199,27 @@
 
   <article>
     
-			<script>
-				console.error("Error: [hexo-tag-aplayer] Specified asset file not found (music/山海.jpg)");
-			</script>
+            <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.css">
+            <script src="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.js"></script>
+            <div id="mmedia-zFSqldwC" style="margin-bottom: 20px; width: "></div>
+        <script>
+          var ap = new APlayer({
+            element: document.getElementById("mmedia-zFSqldwC"),
+            narrow: false,
+            autoplay: false,
+            showlrc: 3,
+            music: {
+              title: "山海",
+              author: "华晨宇",
+              url: "music/山海.mp3",
+              pic: "music/山海.jpg",
+              lrc: "music/山海.lrc"
+            },
+            undefined
+          });
+          window.aplayers || (window.aplayers = []);
+          window.aplayers.push(ap);
+        </script>
 
 <p>崇尚自由、热爱技术。<br>人文主义、创新主义、科技主义、浪漫主义。</p>
 <h2 id="我"><a href="#我" class="headerlink" title="我"></a>我</h2><p>爱好：睡觉、编程、音乐、发呆。<br>人格类型：ISFJ-A 和 ISFJ-T</p>
@@ -266,7 +284,7 @@
     <script src="https://cdn.jsdelivr.net/gh/xtaodada/xtaodada.github.io@0.0.2/copy.js"></script>
 
 
-<script src="/js/app.js?v=1593762477584"></script>
+<script src="/js/app.js?v=1593762676131"></script>
 
   
 
